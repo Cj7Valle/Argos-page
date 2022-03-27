@@ -1,0 +1,291 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    background:#F4F6F7;
+    font-family:Arial, Helvetica, sans-serif;
+ 
+}
+.menu{
+ width:900px;
+ margin: 0 auto;
+
+ 
+}
+header{
+background-color:#006DC6;
+width:100%;
+clear: both;
+content:'';
+display: table;
+border: none;
+height: 100px;
+}
+
+nav{
+    float: left;
+    margin-top:7px;
+}
+
+nav ul li{
+    list-style:none;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 69px;
+    padding:25px 0;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 2px solid #fff;
+    padding-right: 1rem;
+    padding-left: 0.9rem; 
+    
+    padding-top: 3px;
+    display: flex;
+    align-content: space-between;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 242, 242);
+    font-weight:700;
+    padding:7px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 4px;
+    padding-left:1px;
+    
+}
+
+.branding{
+    display: flex;
+    justify-content: center;
+    
+}
+.brand{
+ margin-top: 10px;
+ margin-bottom:10px;
+ border-radius: 80%;
+}
+
+
+.opciones:hover{
+    background:#FAFDFF;
+    color: #8E44AD; 
+    transition: 1.5s;
+    border-radius:8%;
+    font-weight: 750;
+    padding-left:8px;
+    padding-right:12px;
+    text-align: center;
+    display: flex;
+    align-content: space-between;
+    margin-bottom: 8px;
+    margin-top: 3px;
+    margin-left: 0px;
+}
+.content-nav{
+    margin-bottom: 4px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+
+img{
+    height: 82px;
+    width:89px;
+}
+
+
+
+
+.portada{
+   /*margin: 2rem auto;*/
+   display: flex;
+   align-items: flex-start;
+    /*position: relative;*/
+    /*border:solid 2px rgb(196, 187, 187);*/
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /*background-color:#aeafb3;*/
+    border-radius:20px;
+   flex-wrap: wrap;
+   padding-bottom: 30px;
+    
+}
+
+ /*.portada .imagen-portada {
+    position: absolute;
+    
+    height: 459px;
+    width: 200px;
+    background-color: rgb(197, 190, 190);
+    text-align: center;
+    border:solid 2px red;
+left: 50px;
+    margin: 20px;
+    
+    flex: 1;
+    flex-direction: column;
+    border-radius: 229px 126px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 188px;
+   
+    
+    
+    
+}*/
+
+.img-prin{
+    flex: 1;
+    height: 459px;
+    width: 450px;
+    image-rendering: auto;
+    flex-direction: column;
+    border-radius: 229px 126px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 188px;
+   margin: 30px;
+    border-bottom: 40px;
+    border :0px rgb(196, 187, 187) solid;
+}
+
+.portada .texto-portada{
+    /* position: absolute;*/
+     /*border: solid 2px red;   */
+    right: 50px;
+    width:300px;
+    height: 200px;
+    margin: 38px;
+    margin-top: 30px;
+    flex: 1;
+    border-radius:15px;
+    
+}
+.portada .texto-portada h1{
+    /*position: absolute;*/
+    color: rgb(251, 251, 251);   
+    align-content: center;
+    padding: 10px;
+    flex:1;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-portada{
+    background-color: #123058;
+
+    
+}
+
+.argos-family{
+border: 2px red solid;
+display: flex;
+flex-flow: row wrap;    
+width: 100%;
+height: 70px;
+margin-top: 22px;
+margin-bottom: 38px;
+background-color: #123058;
+}
+
+.argos-family h2{
+    font-size: 30px;
+    font-weight:bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-argos-fathers{
+border: 2px red solid;
+display: flex;
+flex-flow: row wrap;    
+width: 100%;
+height: 100%;
+margin-top: 19px;
+padding-top: 0px;
+padding-left: 16px;
+padding-right: 16px;
+padding-bottom: 3rem;
+background-color: #123058;
+margin-bottom: 20px; 
+
+}
+
+.box-argos-fathers .father{
+    border: 2px red solid;
+    width: 37%;
+    display: flex;
+   align-content: space-between;
+}
+
+.box-argos-fathers .heart{
+    border: 2px red solid;
+    width: 20%;
+    height: 150px;
+    display: flex;
+   align-content: space-between;
+   margin-top: 100px;
+   background-image:url("pit.jpg");
+   margin-left: 26px;
+   margin-right: 27px;
+
+  
+   
+
+
+}
+.box-argos-fathers .mother{
+    border: 2px red solid;
+    width: 37%;  
+    display: flex;
+    align-content: space-between;
+    
+}
+.contact{
+border: 2px red solid;
+display: flex;
+flex-flow: row wrap;
+width: 1200px;
+height: 300px;
+margin-top: 16px;
+margin-bottom:20px;
+}
+
+.father .father-pit{
+ width: 100%;
+ height: 100%;
+ padding: 2px;
+}
+
+.mother .mother-pit{
+ width: 100%;
+ height: 100%;
+ padding:2px;
+}
+
+.what-i-like{
+    border: 2px red solid;
+    display: flex;
+    width: 100%;
+    height:200px;
+    margin-bottom: 20px;
+}
+
+.look-my-love{
+    border: 2px red solid;
+    display: flex;
+    width: 100%;
+    height:200px;
+    
+}
